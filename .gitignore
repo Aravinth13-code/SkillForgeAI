@@ -1,0 +1,25 @@
+# Java / Spring Boot
+target/
+.mvn/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Node / React
+node_modules/
+dist/
+
+# Environment Variables
+.env
+.env.*
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
