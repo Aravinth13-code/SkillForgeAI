@@ -1,0 +1,5 @@
+CREATE TABLE roles (
+                       id   INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+                       name ENUM('ROLE_USER','ROLE_ADMIN','ROLE_PREMIUM') NOT NULL UNIQUE
+);
+INSERT INTO roles (name) VALUES ('ROLE_USER'), ('ROLE_ADMIN'), ('ROLE_PREMIUM');
