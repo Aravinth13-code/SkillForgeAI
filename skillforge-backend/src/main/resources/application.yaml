@@ -22,3 +22,7 @@ spring:
             scope:
               - email
               - profile
+
+
+              gemini:
+  api-key: ${GEMINI_API_KEY}
